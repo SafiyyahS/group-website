@@ -1,7 +1,11 @@
 body {
-    background: url("../madeinsheff.jpg");
+    background: url("../madeinsheff.jpg") no-repeat center center fixed;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-position: center;
+    background-repeat:no-repeat;
      text-align: center;
 }
   h1 {text-align:center;
