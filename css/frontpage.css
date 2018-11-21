@@ -1,0 +1,11 @@
+body {
+    background: url("../madeinsheff.jpg");
+    background-size: cover;
+    background-position: center;
+     text-align: center;
+}
+  h1 {text-align:center;
+    font-size: 30px;
+    font-style: calibri;
+    color: white;
+}
