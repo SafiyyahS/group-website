@@ -74,8 +74,8 @@ padding-left: 15px;
 img.rounded-circle  {
   align-content: inline;
   padding: 3px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 #saff h2 {text-align: left;}
 .col-2 {align:left;}
@@ -97,6 +97,12 @@ img {
     height: 400px;
     background-color:#333;
     }
+
+.gmap_canvas  {
+  width: 0px;
+  height: 0px;
+}
+
     a {color: black;}
 [role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
     touch-action: manipulation;
