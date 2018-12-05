@@ -2,12 +2,9 @@ body {
     background-position: center;
     background-size: cover;
     text-align: center;
+
 }
 
-nav {
-    overflow: hidden;
-    background-color: #333;
-}
   h1 {text-align:center;
     font-size: 40px;
     font-family: Verdana, Geneva, sans-serif;
@@ -22,6 +19,7 @@ p {text-align:center;
   background-color: white;
   opacity: 0.5;
 }
+
 
 ul {
   position: fixed;
@@ -51,4 +49,64 @@ a {
   background: url("../sheff.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#monika {
+  margin-left: 109px;
+  margin-right: 108px;
+
+}
+
+img {
+  opacity: 0.80;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  height: 360px;
+  width: 515px;
+
+}
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffcc;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
