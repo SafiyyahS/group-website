@@ -98,10 +98,7 @@ img {
     background-color:#333;
     }
 
-.gmap_canvas  {
-  width: 0px;
-  height: 0px;
-}
+
 
     a {color: black;}
 [role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
