@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href='css/bootstrap.css rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/contact.css">
-<body id=CONTACT>
-  <h1> CONTACT US </h1>
-</body>
-</head>
-<section>
-<nav>
+  <script src="js/scripts.js"></script>
+  </head>
+  <body>
+<link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="style">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<section id="contact" class="content-section text-center">
+<div class="contact-section">
+  <div class=container>
+    <h2>Contact us</h2>
+<p> Feel free to shout us by feeling the contact form or visiting our social network sites like Fackebook,Linkedin & Twitter.</p>
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
   <div class ="container">
     <form action ="action_page.php">
       <label for='fname'>First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Yourname..">
+      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+      <label for='lname'>Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="United Kingdom">United Kingdon</option>
+          <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+      </select>
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write Something.."
+      style="height: 200px"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+    <hr>
+  <h2>Our Social Sites</h2>
+<ul class="list-inline banner-social buttons"
+<li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter"><span class="network name">Twitter</span></i></a></li>
+<li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook"><span class="network name">Facebook</span></i></a></li>
+<li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin"><span class="network name">Linkedin</span></i></a></li>
+
+</ul>
     </div>
+  </section>
+</body>
