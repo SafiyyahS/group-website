@@ -1,7 +1,10 @@
-$("nav").find("a").click(function(e) {
-    e.preventDefault();
-    var section = $(this).attr("href");
-    $("html, body").animate({
-        scrollTop: $(section).offset().top
-    });
+$(function() {
+	$('ul.nav a').bind('click',function(event){
+		var $anchor = $(this);
+
+		$('html, body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top
+		}, 1500,'easeInOutExpo');
+		event.preventDefault();
+	});
 });
