@@ -89,6 +89,7 @@ img {
   border-style: none;
 }
 
+.mapouter {align-content: center; align:center; margin;center;}
 [role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
     touch-action: manipulation;
 }
