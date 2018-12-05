@@ -21,6 +21,7 @@ h1,h2,h3 {
   font-weight: lighter;
   font-size: 50px;
   color: #fff;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -30,33 +31,30 @@ p {
   line-height: 1.6 em;
   font-weight: lighter;
   color: #fff;
+  text-align: center;
   font-size: 40px;
 }
-{
-  color:#26a5d3;
+.media{
+  position: absolute;
+  top: 40%
+  left: 50%
+  transform: translate)-53%, -50
 }
-a: hover,a:focus{
-  text-decoration: none;
-  color: #26a5d3;
+li {
+  list-style; none;
+  margin: 10px 30px;
+  font-size: 20px
+  padding: 20px 20px;
+  border-radius: 30%;
+  transition: .5s;
 }
-
-.fa {
-padding: 20px
-fontsize: 100px
-width: 50px
+label {
+margin: 0 0 20px;
+font-size: 10px;
+line-height: 1.6 em;
+font-weight: lighter;
+color: #fff;
 text-align: center;
-text-decoration: none;
-border-radius: 50%
-}
-.fa:hover {
-  opacity: 0.7;
-}
-.fa-Facebook {
-  background: #3B5998;
-  color: white;
-}
-.fa-Twitter {
-  background: #55ACEE;
-  font-size: 100px
-  color:blue;
+font-size: 40px;
+
 }
