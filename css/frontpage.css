@@ -72,17 +72,20 @@ padding-left: 15px;
 }
 
 img.rounded-circle  {
+  align-content: inline;
   padding: 3px;
   width: 150px;
   height: 150px;
 }
+#saff h2 {text-align: left;}
+.col-2 {align:left;}
 
 .rounded-circle{
   border-radius: 50%!important;
 }
 
 img {
-  vertical-align: middle;
+  vertical-align: inline;
   border-style: none;
 }
 
