@@ -100,6 +100,12 @@ a {
     background-color: transparent;
 }
 
+#olivia
+.mapouter {align-content: center; align:center;}
+[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
+    touch-action: manipulation;
+}
+
 #monika {
   margin-left: 109px;
   margin-right: 108px;
