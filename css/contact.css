@@ -10,46 +10,51 @@ input[type=text], select, textarea {
 }
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  background: #282828;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   }
 h1,h2,h3 {
   margin: 0 0 35px 0;
   font-family: "Patua One" cursive;
+  font-weight: lighter;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 p {
   margin: 0 0 25px;
   font-size: 18px;
-  line-height: 1.6 em
+  line-height: 1.6 em;
+  font-weight: lighter;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
 }
-{
-  color:#26a5d3;
+.media{
+  position: absolute;
+  top: 40%
+  left: 50%
+  transform: translate)-53%, -50
 }
-a: hover,a:focus{
-  text-decoration: none;
-  color: #26a5d3;
+li {
+  list-style; none;
+  margin: 10px 30px;
+  font-size: 20px
+  padding: 20px 20px;
+  border-radius: 30%;
+  transition: .5s;
 }
-#body {
-  background: #333333;
-  color:#f4f4f4;
-}
-.fa {
-padding: 20px
-fontsize: 100px
-width: 50px
+label {
+margin: 0 0 20px;
+font-size: 10px;
+line-height: 1.6 em;
+font-weight: lighter;
+color: #fff;
 text-align: center;
-text-decoration: none;
-border-radius: 50%
-}
-.fa:hover {
-  opacity: 0.7;
-}
-.fa-Facebook {
-  background: #3B5998;
-  color: white;
-}
-fa fa-twitter {
-  background: #55ACEE;
-  font-size: 50px
-  color:blue;
+font-size: 40px;
+
 }
