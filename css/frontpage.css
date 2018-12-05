@@ -4,24 +4,25 @@
   background-size: cover;
 }
 
-body {
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
 
 h1 {
-  padding-top: 275px;
-  padding-bottom: 220px;
-  font-color: white;
+  padding-top: 500px;
+  font-size: 45px;
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+  color: white;
 }
 
 ul {
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   background-color: #333;
   position: fixed;
   top: 0;
-  width: 100%;list-style-type: none;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+   overflow: hidden;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     font-color: black;
@@ -31,12 +32,18 @@ ul {
 }
 
 li {
-    display: inline;
+    float: left;
 }
 
-a {
-    padding: 20px;
-    color: #666;
+li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
 footer {
   text-align:center;
@@ -45,9 +52,7 @@ footer {
   color: black;
   line-height: 35px;
   background-color: white;
-  padding-bottom: 50px;
 }
-
 
 
 #saff
